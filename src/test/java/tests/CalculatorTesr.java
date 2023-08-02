@@ -14,5 +14,10 @@ public class CalculatorTesr {
 		int act=cal.add(10,20);
 		assertEquals(exp,act);
 	}
+	@Test
+	public void newTest()
+	{
+		System.out.println("Temporary Test");
+	}
 
 }
